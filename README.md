@@ -17,10 +17,7 @@ Robust control can only be achieved by a closed-loop (or feedback) system, which
 #### Uncertainty
 Uncertainties are unavoidable in a real control system. The uncertainty can be classified into two categories: disturbance signals and dynamic perturbations. The former includes input and output disturbance (such as a gust on an aircraft), sensor noise and actuator noise, etc. The latter represents the discrepancy between the mathematical model and the actual dynamics of the system in operation. 
 
-A mathematical model of any real system
-is always just an approximation of the true, physical reality of the system dynamics. Typical sources of the discrepancy include unmodeled (usually high-frequency)
-dynamics, neglected nonlinearities in the modeling, effects of deliberate reducedorder models, and system-parameter variations due to environmental changes and
-torn-and-worn factors. 
+A mathematical model of any real system is always just an approximation of the true, physical reality of the system dynamics. Typical sources of the discrepancy include unmodeled (usually high-frequency) dynamics, neglected nonlinearities in the modeling, effects of deliberate reducedorder models, and system-parameter variations due to environmental changes and torn-and-worn factors. 
 
 #### Problems
 Disturbance  signals / Noise interference / Unmodeled plant dynamcis / Drone parameter variations
