@@ -19,6 +19,8 @@ Drone parameter variations
 
 # References
 
+Robust Control Design with MATLAB®, 2nd edn. Springer
+
 [Brian Douglas](https://engineeringmedia.com/videos)
 
 [Steven L. Brunton](https://www.youtube.com/watch?v=oulLR06lj_E&list=PLMrJAkhIeNNQkv98vuPjO2X2qJO_UPeWR)
