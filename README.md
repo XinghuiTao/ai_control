@@ -4,18 +4,19 @@ This open book is about applying AI techniques (machine learning, deep learning 
 ## Control
 Everything is Model-based: Model-based Cotnrol and Model-based Reinforcement Learning. 
 
-Models are built in Matlab & Simulink. Experiments are run in simulator and on a real Parrot mambo drone. 
+Models are built in Matlab & Simulink. Experiments are run in simulator and on a real Parrot Mambo drone. 
+
+### Optimal control vs Robust control
+Optimal control assumes the model is perfect while Robust control assumes the model is imperfect. This book focuses on Robust control applications on drones. 
 
 ### Robust Control
+A successfully designed control system should be always able to maintain a stability and performance level in spite of uncertainties in system dynamics and/or in the working environment to a certain degree. 
 
 #### Problems
-Disturbance signals
+Disturbance  signals / Noise interference / Unmodeled plant dynamcis / Drone parameter variations
 
-Noise interference
-
-Unmodeled drone dynamcis
-
-Drone parameter variations
+#### Solutions
+H∞
 
 # References
 
