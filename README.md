@@ -7,5 +7,7 @@ Everything is Model-based: Model-based Cotnrol and Model-based Reinforcement Lea
 Models are built in Matlab & Simulink. Experiments are run in simulator and on a real Parrot mambo drone. 
 
 # References
+
 [Brian Douglas](https://engineeringmedia.com/videos)
+
 [Steven L. Brunton](https://www.youtube.com/watch?v=oulLR06lj_E&list=PLMrJAkhIeNNQkv98vuPjO2X2qJO_UPeWR)
