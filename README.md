@@ -9,5 +9,4 @@ Models are built in Matlab & Simulink. Experiments are run in simulator and on a
 # References
 
 [Brian Douglas](https://engineeringmedia.com/videos)
-
 [Steven L. Brunton](https://www.youtube.com/watch?v=oulLR06lj_E&list=PLMrJAkhIeNNQkv98vuPjO2X2qJO_UPeWR)
