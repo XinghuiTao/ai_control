@@ -14,16 +14,17 @@ A successfully designed control system should be always able to maintain a stabi
 
 Robust control can only be achieved by a closed-loop (or feedback) system, which uses sensors to measure the actual output to adjust the input in order to achieve desired output. UAV systems are a linear, time-invarian, continuius time, multivariable feeback systems. The H∞ optimization approach and its related approaches have been shown to be effective and efficient robust design methods for such control systems.
 
-#### Uncertainty
-Uncertainties are unavoidable in a real control system. The uncertainty can be classified into two categories: disturbance signals and dynamic perturbations. The former includes input and output disturbance (such as a gust on an aircraft), sensor noise and actuator noise, etc. The latter represents the discrepancy between the mathematical model and the actual dynamics of the system in operation. 
-
 A mathematical model of any real system is always just an approximation of the true, physical reality of the system dynamics. Typical sources of the discrepancy include unmodeled (usually high-frequency) dynamics, neglected nonlinearities in the modeling, effects of deliberate reducedorder models, and system-parameter variations due to environmental changes and torn-and-worn factors. 
 
 #### Problems
-Disturbance  signals / Noise interference / Unmodeled plant dynamcis / Parameter variations
+Uncertainties are unavoidable in a real control system. The uncertainty can be classified into two categories: disturbance signals and dynamic perturbations. The former includes input and output disturbance (such as a gust on an aircraft), sensor noise and actuator noise, etc. The latter represents the discrepancy between the mathematical model and the actual dynamics of the system in operation. They can be caused by complex dynamics(high frequency), uncertain driving forces(gust), intentional simplicity(linearalisation), stochastic events(torn-and-worn), process variations(production).
+
+"I don't know everything (model and/or disturbance) perfectly, but I'm confident it's going to work!" (Brian Douglas)
 
 #### Solutions
-H∞
+##### Add margin (Classical gain and phase margin)
+1. Too liyyrt, or applied in the wrong spot = failed requirement
+2. too much, or overly conservative = more expensive control system
 
 # References
 
