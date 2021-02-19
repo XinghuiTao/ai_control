@@ -23,8 +23,8 @@ Uncertainties are unavoidable in a real control system. The uncertainty can be c
 
 #### Solutions
 ##### Add margin (Classical gain and phase margin)
-1. Too liyyrt, or applied in the wrong spot = failed requirement
-2. too much, or overly conservative = more expensive control system
+1. Too little, or applied in the wrong spot = failed requirement
+2. Too much, or overly conservative = more expensive control system
 
 # References
 
