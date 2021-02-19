@@ -22,9 +22,10 @@ Uncertainties are unavoidable in a real control system. The uncertainty can be c
 "I don't know everything (model and/or disturbance) perfectly, but I'm confident it's going to work!" (Brian Douglas)
 
 #### Solutions
-##### Add margin
+##### Disk margin
 1. Too little, or applied in the wrong spot = failed requirement
 2. Too much, or overly conservative = more expensive control system
+
 The disk margin measures how much uncertainty the loop can tolerate before going unstable. That uncertainty amount corresponds to minimum gain and phase margins. The disk-based gain margin (DGM) is the amount by which the loop gain can increase or decrease without loss of stability, in absolute units.
 
 # References
