@@ -12,7 +12,9 @@ Optimal control assumes the model is perfect while Robust control assumes the mo
 ### Robust Control
 A successfully designed control system should be always able to maintain a stability and performance level in spite of uncertainties in system dynamics and/or in the working environment to a certain degree. 
 
-Robust control can only be achieved by a closed-loop (or feedback) system, which uses sensors to measure the actual output to adjust the input in order to achieve desired output. UAV systems are a linear, time-invarian, continuius time, multivariable feeback systems. The H∞ optimization approach and its related approaches have been shown to be effective and efficient robust design methods for such control systems.
+Robust control is not one controller but a design method. Robust cotrol addresses uncertainty. 
+
+Robust control can only be achieved by a closed-loop (or feedback) system, which uses sensors to measure the actual output to adjust the input in order to achieve desired output. UAV systems are a linear, time-invarian, continuius time, multivariable feeback systems. 
 
 A mathematical model of any real system is always just an approximation of the true, physical reality of the system dynamics. Typical sources of the discrepancy include unmodeled (usually high-frequency) dynamics, neglected nonlinearities in the modeling, effects of deliberate reducedorder models, and system-parameter variations due to environmental changes and torn-and-worn factors. 
 
@@ -21,9 +23,11 @@ Uncertainties are unavoidable in a real control system. The uncertainty can be c
 
 "I don't know everything (model and/or disturbance) perfectly, but I'm confident it's going to work!" (Brian Douglas)
 
-#### Solutions
 ##### Aanlysis
 The disk margin measures how much uncertainty the loop can tolerate before going unstable. That uncertainty amount corresponds to minimum gain and phase margins. The disk-based gain margin (DGM) is the amount by which the loop gain can increase or decrease without loss of stability, in absolute units.
+
+#### Solutions
+The H∞ optimization approach and its related approaches have been shown to be effective and efficient robust design methods for such control systems.
 
 # References
 
