@@ -33,8 +33,12 @@ The disk margin measures how much uncertainty the loop can tolerate before going
 ```Matlab
 L = tf(25,[1 10 10 10]);
 [DM, MM] = diskmargin(L);
-DM
+DM = 
+GainMargin: [0.6273 1.5942]
+PhaseMargin: [-25.8017 25.8017]
 ```
+<img src="https://github.com/Tao-wecorp/ai_control/blob/main/img/disk_margin.png" height="100" />
+
 https://zhuanlan.zhihu.com/p/148966504
 
 #### Solutions
