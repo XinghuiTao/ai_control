@@ -24,11 +24,11 @@ Uncertainties are unavoidable in a real control system. The uncertainty can be c
 
 "I don't know everything (model and/or disturbance) perfectly, but I'm confident it's going to work!" (Brian Douglas)
 
-##### Aanlysis
-###### Margin
+#### Aanlysis
+##### Margin
 Margin is a way to specify how much uncertainty your system can hangle before it no longer meets the requirement. 
 
-###### Disk margin
+##### Disk margin
 The disk margin measures how much uncertainty the loop can tolerate before going unstable. That uncertainty amount corresponds to minimum gain and phase margins. The disk-based gain margin (DGM) is the amount by which the loop gain can increase or decrease without loss of stability, in absolute units.
 
 ```Matlab
@@ -47,7 +47,7 @@ WorstPerturbation: [1×1 ss]
 
 https://zhuanlan.zhihu.com/p/148966504
 
-#### Solutions
+### Solutions
 The H∞ optimization approach and its related approaches have been shown to be effective and efficient robust design methods for such control systems.
 
 # References
