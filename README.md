@@ -24,6 +24,10 @@ Uncertainties are unavoidable in a real control system. The uncertainty can be c
 
 "I don't know everything (model and/or disturbance) perfectly, but I'm confident it's going to work!" (Brian Douglas)
 
+##### MIMO
+
+
+
 #### Aanlysis
 ##### Margin
 Margin is a way to specify how much uncertainty your system can hangle before it no longer meets the requirement. 
