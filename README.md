@@ -19,6 +19,7 @@ Robust control can only be achieved by a closed-loop (or feedback) system, which
 A mathematical model of any real system is always just an approximation of the true, physical reality of the system dynamics. Typical sources of the discrepancy include unmodeled (usually high-frequency) dynamics, neglected nonlinearities in the modeling, effects of deliberate reducedorder models, and system-parameter variations due to environmental changes and torn-and-worn factors. 
 
 #### Problems
+##### Uncertainty
 Uncertainties are unavoidable in a real control system. The uncertainty can be classified into two categories: disturbance signals and dynamic perturbations. The former includes input and output disturbance (such as a gust on an aircraft), sensor noise and actuator noise, etc. The latter represents the discrepancy between the mathematical model and the actual dynamics of the system in operation. They can be caused by complex dynamics(high frequency), uncertain driving forces(gust), intentional simplicity(linearalisation), stochastic events(torn-and-worn), process variations(production).
 
 "I don't know everything (model and/or disturbance) perfectly, but I'm confident it's going to work!" (Brian Douglas)
@@ -32,10 +33,15 @@ The disk margin measures how much uncertainty the loop can tolerate before going
 
 ```Matlab
 L = tf(25,[1 10 10 10]);
-[DM, MM] = diskmargin(L);
+[DM, MM] = diskmargin(L, 0);
 DM = 
 GainMargin: [0.6273 1.5942]
 PhaseMargin: [-25.8017 25.8017]
+DiskMargin: 0.4581
+LowerBound: 0.4581
+UpperBound: 0.4581
+Frequency: 1.9550
+WorstPerturbation: [1×1 ss]
 ```
 <img src="https://github.com/Tao-wecorp/ai_control/blob/main/img/disk_margin.png" height="100" />
 
