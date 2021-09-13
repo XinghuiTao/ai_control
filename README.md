@@ -1,6 +1,14 @@
 # AI & UAV Control 
 This open book is about applying AI techniques (machine learning, deep learning and reinforcement learning) to UAV control systems. 
 
+## Model-based Desgin
+Model-based design provides an efficient approach for establishing a common framework for communication throughout the design process while supporting the development cycle (V-model). In model-based design of control systems, development is manifested in these four steps:
+
+    modeling a plant,
+    analyzing and synthesizing a controller for the plant,
+    simulating the plant and controller,
+    integrating all these phases by deploying the controller.
+
 ## Control
 Everything is Model-based: Model-based Cotnrol and Model-based Reinforcement Learning. 
 
